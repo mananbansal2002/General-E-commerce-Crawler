@@ -9,7 +9,6 @@ This project is a general-purpose web crawler designed to extract product URLs f
 - [Understanding Concurrency and Depth](#understanding-concurrency-and-depth)
 - [Default Configuration](#default-configuration)
 - [Domains to Crawl](#domains-to-crawl)
-- [Fetching Configuration for a Website](#fetching-configuration-for-a-website)
 - [How to Add a New Website](#how-to-add-a-new-website)
 - [Running the Crawler](#running-the-crawler)
 
