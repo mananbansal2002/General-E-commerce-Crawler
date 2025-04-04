@@ -1,0 +1,23 @@
+{
+  "name": "product-crawler",
+  "version": "1.0.0",
+  "description": "A modular web crawler for extracting product URLs",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crawler",
+    "puppeteer",
+    "ecommerce"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "p-limit": "^4.0.0",
+    "puppeteer": "^21.0.0"
+  }
+}
