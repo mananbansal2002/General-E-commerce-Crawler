@@ -30,7 +30,7 @@ const utils = {
     }
   },
 
-  isProductUrl(url, productPatterns) {
+  isProductUrl(url, baseDomain, productPatterns) {
     return productPatterns.some((pattern) => pattern.test(url));
   },
 

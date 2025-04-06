@@ -32,7 +32,9 @@ const linkExtractor = {
             baseDomain,
           });
         }
-      } catch (error) {}
+      } catch (error) {
+        console.log(error);
+      }
     });
 
     // Check for JSON-LD product metadata
